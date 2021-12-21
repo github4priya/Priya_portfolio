@@ -1,0 +1,59 @@
+
+.leftView_container{
+    border: 2px solid #bd5d38;
+    background-color: #bd5d38;
+    width: 20% !important;
+    height: 100vh;
+    position: fixed;
+}
+.leftView_box{
+    color: blanchedalmond;
+    justify-content: center;
+    margin: auto;
+    margin-top: 13%;
+    width: 70%;
+    height: 55%;
+}
+.leftInner{
+    padding: 8px;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+.leftInner a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    font-weight: bolder;
+}
+
+.leftView_imageDiv{
+    /* border: 2px solid black; */
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+.leftView_imageDiv a{
+    text-decoration: none;
+    color: white;
+    /* font-weight: bolder; */
+}
+
+.leftView_image{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+.points:hover{
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.748);
+}
+
+@media only screen and (max-width: 600px){
+    .leftView_container{
+        visibility: hidden;
+    }
+}

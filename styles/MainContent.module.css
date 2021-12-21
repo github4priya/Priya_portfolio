@@ -1,0 +1,254 @@
+.intro_head{
+    /* border: 2px solid black; */
+    position: sticky;
+    height: 100vh;
+    display: flex;
+    width: 80%;
+  align-items: center
+}
+.project_head{
+    height: auto;
+}
+.intro_name{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+}
+
+.intro_div{
+    width: 100%;
+    /* border: 2px solid blue; */
+    vertical-align: middle;
+}
+.intro_div_head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    color: #343a40;
+
+}
+.surname{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    color: #bd5d38;
+}
+.icon_img{
+    height: 2rem;
+    width: 2rem;
+    /* border: 10px solid rgba(0, 0, 0, 0.514); */
+    /* background-color: black; */
+    border-radius: 50%;
+}
+.address{
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    color: rgba(0, 0, 0, 0.515);
+    font-size: 1.2rem;
+    /* opacity: 0.5; */
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+#emailID{
+    color: #bd5d38;
+    opacity: 1;
+}
+.logoLinks{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 5%; */
+}
+.logoLinks div{
+    /* background-color: #343a40; */
+    padding: 10px;
+    /* border-radius: 50%;
+    margin: auto; */
+}
+.intro_para{
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.1rem;
+    font-weight:500
+}
+
+
+/* education */
+
+.education, .experience, .skills, .projects, .interests, .achievements, .access_to_resume{
+    font-size: 3rem;
+    /* font-weight: 300; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.edu_part, .exp_part{
+    padding: 20px;
+}
+
+.edu_head, .exp_head{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /* font-size: 1.5rem;
+    font-weight: 500; */
+}
+.edu_partName, .exp_partName{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.edu_subhead, .exp_subhead{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+    opacity: 0.5;
+}
+
+.edu_title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    opacity: 0.5;
+}
+.edu_date, .exp_date{
+    color: rgba(255, 0, 0, 0.507);
+    font-weight: 500;
+    /* opacity: 0.6; */
+}
+
+/* experiences */
+.exp_para{
+
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    color: black;
+    opacity: 0.5;
+    font-size: 1.1rem;
+    font-weight:500
+}
+.exp_button, .project_button{
+    text-decoration: none;
+    color: #bd5d38;
+}
+.exp_button:hover{
+    text-decoration: none;
+    color: #da450a;
+}
+.project_button:hover{
+    text-decoration: none;
+    color: #da450a;
+}
+
+/* skills */
+.logo_img{
+    padding: 10px;
+    width: 4rem;
+    height: 4rem;
+}
+.workflow, .skills_head{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #343a40;
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+}
+
+.workflowPart{
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    color: black;
+    opacity: 0.7;
+    font-size: 1.1rem;
+    font-weight:500
+}
+
+
+/* interests */
+.interest_para{
+    margin-top: 20px;
+    /* color: #343a40; */
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    color: black;
+    opacity: 0.7;
+    font-size: 1.1rem;
+    font-weight:500
+}
+
+
+/* projects */
+
+.projectname{
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.projectbased{
+    font-size: 1.5rem;
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    color: black;
+    opacity: 0.7;
+    font-weight:500
+}
+.project_link{
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    color: black;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight:500
+}
+
+
+/* achievements */
+.achievements_content{
+    margin-top: 30px;
+}
+.oneachievement{
+    display: flex;
+    flex-direction: row;
+    font-family: Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+    color: black;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight:500
+}
+
+.tropy_image{
+    width: 2rem;
+    height: 2rem;
+}
+.profile_links{
+    text-decoration: none;
+    color: #bd5d38;
+}
+.profile_links:hover{
+    color: #dd4a0f;
+}
+
+/* footer */
+.footer{
+    background-color: rgba(0, 0, 0, 0.837);
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.487);
+}
+.priya_link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.748);
+}
+.priya_link:hover{
+    color: rgba(255, 255, 255, 0.885);
+}
+@media only screen and (max-width: 600px){
+    .intro_head{
+        margin: auto;
+    }
+    .icon_img{
+        width: 30px;
+        height: 30px;
+    }
+    .logoLinks div{
+        padding: 0;
+    }
+    .address{
+        flex-direction: column;
+    }
+    .edu_date{
+        width: 180px;
+        height: 30px;
+    }
+
+}
