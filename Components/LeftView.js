@@ -1,12 +1,15 @@
 import React from 'react'
-import styles from '../../styles/LeftView.module.css'
-import Profileimage from './profilePhoto.jpeg'
+import Image from "next/image"
+import styles from '../styles/LeftView.module.css'
+import Profileimage from '../public/profilephoto.jpeg'
+
+// console.log(Profileimage)
 
 function LeftNav() {
     return (
         <div className={styles.leftView_container}>
             <div className={styles.leftView_imageDiv}>
-                <img src={Profileimage} alt="profilephoto" className={styles.leftView_image}/>
+                <Image src={Profileimage} alt="profilephoto" className={styles.leftView_image} width="174" height="174"/>
                 <h4><a href="#about">PRIYA GUPTA</a></h4>
             </div>
 

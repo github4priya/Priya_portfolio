@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
-import LeftView from '../Components/LeftView/LeftView'
+import LeftView from '../Components/LeftView'
 import MainContent from '../Components/MainContent'
 
 export default function Home() {
