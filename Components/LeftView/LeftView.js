@@ -1,14 +1,12 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
 import styles from '../../styles/LeftView.module.css'
-import profileimage from '../../images/profilePhoto.jpeg'
+import Profileimage from './profilePhoto.jpeg'
 
 function LeftNav() {
     return (
         <div className={styles.leftView_container}>
-
             <div className={styles.leftView_imageDiv}>
-                <img src="https://scontent.fixr3-2.fna.fbcdn.net/v/t39.30808-6/p600x600/251128377_310405094238392_4421595162759485041_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=NppyM-LIL48AX9KSRWO&tn=rOLq799qfRycQUmk&_nc_ht=scontent.fixr3-2.fna&oh=00_AT9k7n6mxp6RHe8kP2loPOicGLhErmf0QNvxi2PTgy10xA&oe=61C6DBFC" alt="profilephoto" className={styles.leftView_image}/>
+                <img src={Profileimage} alt="profilephoto" className={styles.leftView_image}/>
                 <h4><a href="#about">PRIYA GUPTA</a></h4>
             </div>
 
